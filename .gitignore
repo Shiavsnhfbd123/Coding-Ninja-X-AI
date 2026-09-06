@@ -1,0 +1,37 @@
+# Python bytecode and local tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+3lc-env/
+.venv/
+venv/
+env/
+
+# Dataset and 3LC local state
+data/
+.3lc/
+*.sqlite
+*.sqlite3
+
+# Generated model checkpoints and training outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+accuracy_improvements/artifacts/
+accuracy_improvements/reports/
+accuracy_improvements/submissions/
+submission.csv
+final_submission/
+submissions/
+
+# Environment-specific secrets and editor settings
+.env
+.env.*
+.vscode/
+.idea/

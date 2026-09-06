@@ -1,0 +1,26 @@
+{
+  "checkpoints": [
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\3-lc-hackblox-scene-classification-challenge\\accuracy_improvements\\artifacts\\image224_mixup_seed42\\best_resnet18.pth",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\3-lc-hackblox-scene-classification-challenge\\accuracy_improvements\\artifacts\\image224_mixup_seed17\\best_resnet18.pth",
+    "C:\\Users\\shiva\\OneDrive\\Desktop\\3-lc-hackblox-scene-classification-challenge\\accuracy_improvements\\artifacts\\ema_0995_seed42\\best_resnet18.pth"
+  ],
+  "ensemble_method": "equal_probability_average",
+  "error_count": 228,
+  "hflip_logit_weights": [
+    0.2,
+    0.2,
+    0.5
+  ],
+  "per_class_accuracy_percent": {
+    "buildings": 78.0,
+    "forest": 92.5,
+    "glacier": 72.0,
+    "mountain": 71.5,
+    "sea": 81.0,
+    "street": 91.0
+  },
+  "uses_test_data": false,
+  "uses_undefined_data": false,
+  "validation_accuracy_percent": 81.0,
+  "validation_examples": 1200
+}
